@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<head>
+    <title>Najib's Biography</title>
+<style>
+    
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    font-family: "Ubuntu", serif;
+
+}
+.container{
+    max-height: 100vh;
+}
+.name1 {
+    display: block;
+    text-align: center;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav-bar ul li{
+    padding-right: 20px;
+}
+.lower-content {
+    display: flex;
+    justify-content: space-around;
+}
+.bio {
+    height: 250px;
+    width: 700px;
+    line-height: 30px;
+}
+.left-side {
+    border: 1px solid black;
+    text-align: center;
+    /* width: 600px; */
+    padding: 10px;
+}
+.left-side h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:blue;
+}
+.to-the-left{
+    text-align: left;
+}
+.to-the-left li{
+    margin: 40px;
+}
+.input1 {
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px 50px;
+    padding: 5px;
+    outline: none;
+}
+.input2{
+    width: 250px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+#caption1 {
+    padding: 50px;
+}
+.top{
+    background-color: red;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="name1"  id="back-to-top">
+            NAJIB BUSUULWA
+        </h1>
+        <hr>
+        <div class="nav-bar">
+            <h3>Software Developer</h3>
+            <ul>
+                <li> <a href="#bio" >Biography</a></li>
+                <li><a href="#achievement">Achievements</a></li>
+                <li><a href="#keys">Key conributions</a></li>
+            </ul>
+        <h3> <a href="#contact">Get in Touch</a> </h3>
+        </div>
+        <hr>
+        <div class="lower-content">
+
+<div class="left-side">
+    <h1 class="profession">
+        Software Engineer
+    </h1>
+    <p class="bio" id="bio">Najib Busuulwa  is a dedicated software engineering student currently going for a  bachelors in science in Software Development at Victoria University  with a strong foundation in Information Technology and Web Design taught by his favorite lecturer Madam Olivia Najjemba Damalie . Driven by a vision to excel as a software developer and entrepreneur, Najib Busuulwa  combines technical learning with a focus on personal growth. Currently studying topics in HTML, CSS and JAVASCRIPT. Najib Busuulwa  has particular interests in Web development and Application development for entrepreneur entities, Embedded systems in year 3 where I will engage more in building technologies the run in car keys ,cameras, motion detectors etc. 
+
+      </p>
+<button id="contact1">
+    <a href="#contact">Get in Touch</a>
+</button>
+<div id="achievement">
+    <h2>Achievements</h2>
+    <ul class="to-the-left">
+        <li>I attained a certificate in ICT at YMCA Wandegeya</li>
+        <li>I attained certificates on online apps such Sololearn etc of HTML ,JAVASCRIPT and CSS.</li><br>
+        <br><img  width="600px" height="450px" src="HTML certificate.jpg" alt="HTML certificate" >
+        <br><img  width="600px" height="450px" src="CSS certificate.jpg" alt="CSS certificate" >
+        <br><img  width="600px" height="450px" src="Javascript certificate.jpg" alt="JAVASCRIPT certificate" >
+        <br><li>I attained a position as a Systems Engineer at Tech-mansion Solutions</li>
+        <li>I attained a position as an panel advisor of Staff at Olitech solutions LTD</li>
+       
+    </ul>
+ 
+
+   
+    
+</div>
+<div id="keys">
+    <h2>contributions</h2>
+    <ol  class="to-the-left">
+        <li>I try to inspire others through my journey of overcoming challenges in web design. business management and time efficiency</li>
+        <li>I share knowledge and mentor others in programming and ICT basing on what I know.</li>
+        <li>I address new employees in the business entities i work in.</li>
+    </ol>
+    .    
+    
+  
+
+</div>
+
+</div>
+<div class="right-side">
+<img src="najib.jpg" alt="profile photo" width="500px" height="450px">
+    
+</div>
+    </div>
+    <div id="contact">
+        <div class="form">
+            <form action="index.php" method="post" autocomplete>
+                <h2 id="caption1">Insert Your Details to Contact Me</h2>
+                <div>
+                <label for="fname">First Name</label>
+                <input type="text" class="input1" id="fname" placeholder="Najib">
+                </div>
+                <br>
+                <div>
+                <label for="lname">Last Name</label>
+                <input type="text"  class="input1" id="lname" placeholder="Busuulwa">
+                </div>
+                <br>
+                <div>
+                <label for="password">Password</label>
+                <input type="password"  class="input1" id="password" placeholder="Please Enter your Password" maxlength="10">
+                </div>
+                <br>
+                <div>
+                <label for="email">Email</label>
+                <input type="email"  class="input1" id="email" placeholder="najibthadesiigner010@gmail.com">
+                </div>
+                <br>
+                <div>
+                <label for="number">Phone Number</label>
+                <input type="tel"  class="input1" id="number" placeholder="Telephone Number" maxlength="13">
+                </div>
+                <br>
+                <div>
+                <label for="date">Birth Date</label>
+                <input type="date" id="date" class="input1" placeholder="3/12/2001">
+                </div>
+                <div>
+                <div class="payment">
+                    <h4>Payments I used</h4>
+                <select class="input1">
+                <option>MasterCard</option>
+                <option>VISA Card</option>
+                <option>Mobile money(Airtel)</option>
+                <option>Mobile money(MTN)</option>
+                </select>
+                </div>
+                <br>
+                <div>
+                <label for="MR.">MR</label>
+                <input type="radio" id="MR." name="rbtn">
+                </div>
+                <br>
+                <div>
+                <label for="MRS.">MRS</label>
+                <input type="radio" id="MRS." name="rbtn">
+                </div>
+                <br>
+                <label for="message">Message</label>
+                <textarea id="message" class="input2"></textarea>
+                <br>
+                </form>
+        </div>
+
+            <div class="info">
+                <ul>
+                    <li>Email:najibthadesiigner010@gmail.com</li>
+                    <li>TEL:0759434512 / 0785840098</li>
+
+                </ul>
+            </div>
+            
+    </div>
+    <a href="#back-to-top" class="top"> Back to top</a>
+    <footer>
+        <p>&copy; 2024 Participant Name: Najib Busuulwa</p>
+    </footer>
+    </div>
+</body>
+</html>
